@@ -1,0 +1,133 @@
+@import url("font_style.css");
+
+
+body {
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    font-family: 'DinPro-Light';
+    font-size: 1em;
+    line-height: 1.3em;
+
+    color:black;
+    background-color: #00ffc2;
+
+    text-rendering: optimizeLegibility;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.main-container-splashpage{
+    position: absolute;
+    margin-top: 20px;
+    height: 100%;
+    width:100%;
+
+    /* FLEXBOX ATTRIBUTES */
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-direction: column; /* Safari */
+    flex-direction: column;
+    -webkit-justify-content: space-between; /* Safari */
+    justify-content: space-between;
+    -webkit-align-items: stretch; /* Safari */
+    align-items: stretch;
+}
+
+.content-splashpage{
+    height: 100%;
+    width: 100%;
+
+    /* FLEXBOX ATTRIBUTES */
+    flex: 1 0 auto;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-direction: row; /* Safari */
+    flex-direction: row;
+    -webkit-align-items: flex-start; /* Safari */
+    align-items: flex-start;
+}
+
+.left-container-splashpage{
+    height: 100%;
+    max-width: 265px;
+    min-width: 265px;
+    margin-left: 30px;
+
+    /* FLEXBOX ATTRIBUTES */
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-direction: column; /* Safari */
+    flex-direction: column;
+    -webkit-align-items: flex-start; /* Safari */
+    align-items: flex-start;
+}
+
+.logo-container-splashpage{
+    height:100px;
+    width:100%;
+    border-bottom: 3px solid #00ffc2;
+}
+
+.logo-splashpage{
+    height:110px;
+    width: auto;
+    margin: 0px;
+}
+
+.artist-name-container-splashpage{
+    margin-top: -27px;
+    padding-left: 24px;
+}
+
+.artist-name-splashpage{
+    font-size: 1.2em;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.artist-type-container-splashpage{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-left: 24px;
+    min-width: 400px;
+}
+
+.artist-type-splashpage{
+    font-size: 1.1em;
+    line-height: 1em;
+    letter-spacing: 0em;
+    font-style: italic;
+    color: white;
+}
+
+.tmp-text{
+    position:fixed;
+    top: 200px;
+    left: 680px;
+    font-size: 2.5em;
+    line-height: 1.5em; 
+    color: #00ffc2;    
+    text-align: center;
+    font-weight: 600;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}

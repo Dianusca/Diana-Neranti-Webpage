@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+@font-face {
+	font-family: 'Din-Light';
+	src: url('../data/fonts/DINLight.ttf');
+}
+
+@font-face {
+	font-family: 'DinPro-Light';
+	src: url('../data/fonts/DINPro-Light-48.otf');
+}
+
+@font-face {
+	font-family: 'DINPro-Medium';
+	src: url('../data/fonts/DINPro-Medium.otf');
+}
+
+@font-face {
+	font-family: 'Quicksand-Regular';
+	src: url('../data/fonts/Quicksand-Regular.otf');
+}
