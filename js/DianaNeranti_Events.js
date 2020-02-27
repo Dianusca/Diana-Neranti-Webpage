@@ -4,7 +4,12 @@ $(document).ready(function(){
 	if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
 		body.css("font-family","\'DinPro-Light\'");
 	}
-});
+
+    $('a[href="https://replica.berlin/"]').click(function(){
+        window.open(this.href);
+        return false;
+  });
+
 
 $("#projects").click(function () {
         $(this).parent().parent().next().eq(0).toggle();
@@ -74,6 +79,8 @@ $('select').each(function () {
         $styledSelect.removeClass('active');
         $list.hide();
     });
+
+});
 
 });
 

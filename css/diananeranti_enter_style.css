@@ -110,7 +110,7 @@ body {
 
 .artist-type-splashpage{
     font-size: 1.1em;
-    line-height: 1em;
+    line-height: 1.6em;
     letter-spacing: 0em;
     font-style: italic;
     color: white;
@@ -125,6 +125,24 @@ body {
     color: #00ffc2;    
     text-align: center;
     font-weight: 600;
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a:hover {
+    color:rgb(0,255,210);
+    font-style: italic;
+    text-decoration:line-through;
+}
+
+a:visited {
+    color: white;
+    font-style: italic;
 }
 
 html {
